@@ -15,3 +15,11 @@ updates:
     # Add reviewers
     reviewers:
       - "hongweiliu17"
+  - package-ecosystem: "go"
+    directory: "/"
+    schedule:
+      interval: daily
+    commit-message:
+      prefix: "chore(go): "
+    reviewers:
+      - "hongweiliu17"
